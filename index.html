@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    
+        <!--zad1-->
+        <script>
+            var imie;
+
+            imie=prompt("Podaj imie: ");
+            document.write("Witaj " + imie) + "<br>";
+        </script>
+
+         <!--zad2-->
+        <script>
+        let liczba1 = parseFloat(prompt("Podaj pierwszą liczbę:"));
+        let liczba2 = parseFloat(prompt("Podaj drugą liczbę:"));
+        let operacja = parseInt(prompt("Wybierz operację:\n1 - dodawanie, 2 - odejmowanie, 3 - mnożenie, 4 - dzielenie"));
+        let wynik
+        switch(operacja){
+            case 1:
+                wynik = liczba1 + liczba2;
+                break;
+            case 2:
+                wynik = liczba1 - liczba2;
+                break;
+            case 3:
+                wynik = liczba1 * liczba2;
+                break;
+            case 4:
+                wynik = liczba1 / liczba2;
+                break;
+            default:
+                alert("Nieprawidłowy wybór operacji.");
+        }
+        </script>
+
+         <!--zad3-->
+        <script>
+            var wzrost;
+
+            wzrost=prompt("Podaj wzrost")
+            if (wzrost > "180") {
+            document.write("Jestes wysoki")
+            } else {
+                if (wzrost < "165") {
+                    document.write("Jestes niski");
+                } else {
+                    document.write("Jestes sredni")
+                }
+            }
+
+        </script>
+
+         <!--zad4-->
+        <script>
+        let rokUrodzeniaa = parseInt(prompt("Podaj swój rok urodzenia:"));
+        let obecnyRokk = new Date().getFullYear();
+        let wiekk = obecnyRokk - rokUrodzeniaa;
+        alert("Twój wiek to " + wiekk + "lat");
+
+        </script>
+
+        <!--zad5-->
+        <script>
+        let rokUrodzenia = parseInt(prompt("Podaj swój rok urodzenia:"));
+        let obecnyRok = new Date().getFullYear();
+        let wiek = obecnyRok - rokUrodzenia;
+        if (wiek >= 18 ){
+            alert("Jesteś pełnoletni.");
+        }
+        else{
+            alert("Nie jesteś pełnoletni.");    
+        }
+
+    </script>
+
+
+
+
+</body>
+</html>
