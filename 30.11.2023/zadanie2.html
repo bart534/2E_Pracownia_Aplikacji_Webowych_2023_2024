@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let choice = prompt("Wybierz konwersję (C na F - 1, F na C - 2): ");
+
+    if (choice === '1') {
+        let tempC = parseFloat(prompt("Podaj temperaturę w stopniach Celsiusza: "));
+        let tempF = tempC * 9/5 + 32;
+        alert(tempC + " °C to " + tempF + " °F");
+    } else if (choice === '2') {
+        let tempF = parseFloat(prompt("Podaj temperaturę w stopniach Fahrenheita: "));
+        let tempC = (tempF - 32) * 5/9;
+        alert(tempF + " °F to " + tempC + " °C");
+    } else {
+        alert("Niepoprawny wybór.");
+    }
+    </script>
+
+</body>
+</html>
