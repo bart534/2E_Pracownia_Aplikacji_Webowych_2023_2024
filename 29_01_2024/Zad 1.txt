@@ -1,0 +1,7 @@
+Zad 1
+
+FOR: Pętla FOR odróżnia się od pętli WHILE i DO-WHILE przede wszystkim rodzajem zastosowań. W jej przypadku zazwyczaj wiemy dokładnie ile razy ma się jakaś czynność powtórzyć
+
+WHILE: Pętlę while najczęściej wykorzystuje się w miejscach, gdzie zakładana ilość powtórzeń jest bliżej nieokreślona, ale znamy warunek jaki musi być spełniony
+
+DO-WHILE: Różni się ona od pętli while przede wszystkim tym, że to co znajduje się w jej wnętrzu wykona się przynajmniej raz, ponieważ warunek jest sprawdzany dopiero w drugiej kolejności.
