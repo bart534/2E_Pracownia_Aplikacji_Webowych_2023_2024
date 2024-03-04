@@ -1,0 +1,5 @@
+Jednowymiarowe- Kiedy potrzebujemy wczytać tylko jedną klasę do której chodzi uczeń
+
+Wielowymiarowe- Kiedy potrzebujemy wczytać wiele klas 
+
+Asocjacyjne-
