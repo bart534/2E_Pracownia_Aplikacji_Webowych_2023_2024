@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const tab = ["Marcin", "Ania", "Agnieszka"];
+
+        for (let i=0; i<tab.length; i ++)
+        {
+            console.log("licznik petli; " + i);
+            console.log(tab[i]);
+        }
+
+        const tab1 = ["Marcin", "Ania", "Agnieszka"];
+
+        for(let i=0; i<tab.length; i++)
+        {
+            const el = tab[i];
+            console.log(el.toUpperCase());
+        }
+
+        const tab2 = ["Marcin", "Ania", "Agnieszka"];
+
+        for (const el of tab)
+        {
+            console.log(el);
+        }
+
+        for (const xxx of tab)
+        {
+            console.log(xxx.toUpperCase());
+        }
+
+        for (let lorem of tab)
+        {
+            console.log(lorem);
+        }
+    </script>
+</body>
+</html>

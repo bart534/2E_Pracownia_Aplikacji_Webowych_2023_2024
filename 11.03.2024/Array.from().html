@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const ob = 
+        {
+            0 : "Ala",
+            1 : "Bela",
+            length: 2
+        }
+
+        console.log(Array.from(ob));
+
+        const buttons = document.querySelectorAll("button");
+        console.log(buttons);
+
+        const tab = Array.from(buttons);
+        console.log(tab);
+
+        const ob2 =
+        {
+            0 : "Ala",
+            1 : "Bela",
+            length: 2
+        }
+
+        const tab2 = Array.from(ob, function(el)
+        {
+            return el.toUpperCase()
+        });
+        console.log(tab);
+
+        const buttons2 = document.querySelectorAll("button");
+        console.log(buttons);
+
+        const buttonsTabA = [...buttons];
+        const buttonsTabB = Array.from(buttons);
+
+        const ob3 = { 0: "a", 1: "b", length: 2};
+
+        console.log(Array.from(ob));
+
+        console.log([...ob]);
+
+    </script>
+</body>
+</html>
