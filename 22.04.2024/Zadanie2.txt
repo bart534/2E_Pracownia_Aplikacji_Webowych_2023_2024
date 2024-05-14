@@ -1,0 +1,2 @@
+1.wykona jakąś czynność po najechaniu myszką na daną rzecz
+2.wykona jakąś czynność po zjechaniu myszką z danej rzeczy

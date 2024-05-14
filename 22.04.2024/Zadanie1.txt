@@ -1,0 +1,7 @@
+Zadanie 1
+
+1.służy do tego aby wyświetlić tekst po załadowaniu strony
+2.służy do tego aby wyświetlić np. jakiś komunikat po wysłaniu formularza 
+3.służy do tego aby stało się jakieś wydarzenie po kliknięciu i puszczeniu przycisku myszki
+4.służy do tego aby zmnienić coś po najechaniu myszką
+5.służy do tego aby zmnienić coś po zjechaniu myszką
