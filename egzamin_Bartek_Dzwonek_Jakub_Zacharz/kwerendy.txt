@@ -1,0 +1,9 @@
+kw1:	INSERT INTO `logowanie`(`id`, `nick`, `haslo`) VALUES ('3','Jeremi','Jer123');
+
+kw2:	SELECT Floor(AVG(`rokUr`)) AS `średni rok urodzenia` FROM `uczestnicy` WHERE 1;
+
+kw3: 	SELECT `imie`,`nazwisko`,`nick`,`haslo` FROM `logowanie`,`uczestnicy` WHERE `imie` LIKE 'J%';
+
+kw4:	CREATE USER 'Uczestnik'@'%' IDENTIFIED VIA mysql_native_password USING '***';GRANT USAGE ON *.* TO 'Uczestnik'@'%' REQUIRE NONE WITH MAX_QUERIES_PER_HOUR 0 	MAX_CONNECTIONS_PER_HOUR 0 MAX_UPDATES_PER_HOUR 0 MAX_USER_CONNECTIONS 0;GRANT ALL PRIVILEGES ON `chat`.* TO 'Uczestnik'@'%';
+
+kw5:	GRANT SELECT, UPDATE ON `chat`.`uczestnicy` TO 'uczestnik'@'%';
